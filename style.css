@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{ 
     --preto: #000000ff;
     --azul-forte: #14213dff;
     --laranja: #fca311ff;
     --prata: #e5e5e5ff;
     --branco: #ffffffff;
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-texto: "Chakra Petch", serif;
+}
+
+body{
+    background-color: var(--prata);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azul-forte);
+    
 }
